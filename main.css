@@ -8,12 +8,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+.landing {
  /* background: #33bb90; */
  background-image: url("./background.jpg");
  background-size: cover;
  color: #ededed;
 }
+
+body {
+    background: #081b29;
+    /* background-image: url("./background.jpg"); */
+    background-size: cover;
+    color: #ededed;
+   }
 
 
 .header {
@@ -24,6 +31,7 @@ body {
     padding: 20px 10%;
     /* background: yellowgreen; */
     display: flex;
+    background-color: #081b29;
 }
 
 .logo {
@@ -32,6 +40,7 @@ body {
     color: #ededed;
     text-decoration: none;
     font-weight: 900;
+    
 }
 
 .navbar a {
@@ -40,6 +49,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
+
 }
 
 .home{
@@ -100,3 +110,4 @@ body {
     background: transparent;
     color: #00abf0;
 }
+
