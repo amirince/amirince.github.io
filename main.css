@@ -9,9 +9,9 @@
 }
 
 body {
- /* background: #081b29; */
- background-image: url("background.jpg");
- background-size: cover;
+ background: #33bb90;
+ /* background-image: url("background.jpg"); */
+ /* background-size: cover; */
  color: #ededed;
 }
 
