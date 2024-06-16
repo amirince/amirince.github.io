@@ -32,6 +32,8 @@ body {
     padding: 20px 10%;
     /* background: yellowgreen; */
     display: flex;
+    background-color: rgba(52, 45, 45, 0.3);
+    backdrop-filter: blur(50px);
 }
 
 .logo {
@@ -53,8 +55,60 @@ body {
 
 }
 
+.project-carousel{
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;  
+    padding-bottom: 15vh;     
+}
+
+.blur {
+    filter: blur(10px);
+}
+
+.item {
+    height: 40vh;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgba(52, 45, 45, 0.3);
+    backdrop-filter: blur(50px);
+    transition: transform 0.1s ease-in-out;
+    font-weight: 900;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.item1 {
+    background-image: url(/resrouces/computer.png); 
+}
+.item2 {
+    background-image: url('/resrouces/mobile.png');
+}
+.item3 {
+    background-image: url('resrouces/ai.png');
+}
+.item4 {
+    background-image: url('resrouces/cpu.png');
+}
+.item5 {
+    background-image: url('resrouces/work.png');
+}
+.item:hover {
+    transform: translateY(-35px);
+}
+
+
 .home{
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -81,7 +135,6 @@ body {
     font-size: 16px;
 
 }
-
 
 .home-content .btn-box {
     padding-top: 10px;
