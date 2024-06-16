@@ -10,7 +10,7 @@
 
 .landing {
  /* background: #33bb90; */
- background-image: url("./background.jpg");
+ background-image: url("./resrouces/background.jpeg");
  background-size: cover;
  color: #ededed;
 }
@@ -32,7 +32,6 @@ body {
     padding: 20px 10%;
     /* background: yellowgreen; */
     display: flex;
-    background-color: #081b29;
 }
 
 .logo {
@@ -43,6 +42,7 @@ body {
     font-weight: 900;
     
 }
+
 
 .navbar a {
     font-size: 18px;
@@ -73,7 +73,7 @@ body {
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #00abf0
+    color: #cfd3d5
 }
 
 
