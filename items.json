@@ -1,0 +1,34 @@
+{
+    "operating systems": [
+        {"title": "Item 1", "description": "Description for item 1"},
+        {"title": "Item 2", "description": "Description for item 2"},
+        {"title": "Item 3", "description": "Description for item 3"},
+        {"title": "Item 4", "description": "Description for item 4"},
+        {"title": "Item 4", "description": "Description for item 4"}
+    ],
+    "ios development": [
+        {"title": "Item A", "description": "Description for item A"},
+        {"title": "Item B", "description": "Description for item B"},
+        {"title": "Item C", "description": "Description for item C"},
+        {"title": "Item D", "description": "Description for item D"}
+    ],
+    "machine learning": [
+        {"title": "Item X", "description": "Description for item X"},
+        {"title": "Item Y", "description": "Description for item Y"},
+        {"title": "Item Z", "description": "Description for item Z"},
+        {"title": "Item W", "description": "Description for item W"}
+    ],
+    "computer architecture": [
+        {"title": "Item X", "description": "Description for item X"},
+        {"title": "Item Y", "description": "Description for item Y"},
+        {"title": "Item Z", "description": "Description for item Z"},
+        {"title": "Item W", "description": "Description for item W"}
+    ],
+    "side": [
+        {"title": "Item X", "description": "Description for item X"},
+        {"title": "Item Y", "description": "Description for item Y"},
+        {"title": "Item Z", "description": "Description for item Z"},
+        {"title": "Item W", "description": "Description for item W"}
+    ]
+    
+}
