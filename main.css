@@ -80,7 +80,7 @@ body {
     flex: 1;
     text-align: center;
     padding: 20px;
-    border: 2px solid #ddd;
+    border: 1px solid #322f2f;
     margin: 5px;
     border-radius: 15px;
     background-color: rgba(52, 45, 45, 0.3);
@@ -173,7 +173,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-columns: repeat(3, 1fr); /* 4 columns */
     grid-auto-rows: 25vh; /* Each row is 25% of the viewport height */
     gap: 10px;
     padding: 5% 10%;
@@ -185,12 +185,13 @@ body {
     border: 1px solid #ddd;
     border-radius: 4px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 18px;
     text-align: center;
     padding: 10px;
     transition: transform 0.13s ease-in-out;
+    flex-direction: column; /* Ensure children are stacked vertically */
+    text-decoration: none;
+    color: white;
 }
 
 .grid-item:hover{
@@ -200,4 +201,15 @@ body {
 .page_heading{
     margin-top: 7%;
     text-align: center;
+}
+
+/* Ensure the h3 is at the top */
+.grid-item h3 {
+    margin: 0;
+}
+
+/* Ensure the p is below the h3 */
+.grid-item p {
+    padding-top: 3%;
+    margin: 0;
 }

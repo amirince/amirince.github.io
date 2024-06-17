@@ -1,6 +1,7 @@
 {
     "operating systems": [
-        {"title": "Item 1", "description": "Description for item 1"},
+        {"title": "Item 1", "description": "Description for item 1", "url": 
+    "https://youtube.com"},
         {"title": "Item 2", "description": "Description for item 2"},
         {"title": "Item 3", "description": "Description for item 3"},
         {"title": "Item 4", "description": "Description for item 4"},
@@ -13,10 +14,25 @@
         {"title": "Item D", "description": "Description for item D"}
     ],
     "machine learning": [
-        {"title": "Item X", "description": "Description for item X"},
-        {"title": "Item Y", "description": "Description for item Y"},
-        {"title": "Item Z", "description": "Description for item Z"},
-        {"title": "Item W", "description": "Description for item W"}
+        {"title": "Linear Regression",
+        "description": "Exploring linear regression with gradient descent.",
+        "url": "https://github.com/amirince/machine_learning_basics/blob/main/Linear%20Regression.ipynb"},
+
+        {"title": "Features and Tensorflow",
+        "description": "Training models with TensorFlow and using a real dataset to predict car prices from their features.", 
+        "url": "https://github.com/amirince/machine_learning_basics/blob/main/Regression_Features_TensorFlow.ipynb"},
+
+        {"title": "Embeddings for Text",
+        "description": "Training models for sentiment classification and experimenting with learned embeddings for text features.",
+        "url": "https://github.com/amirince/machine_learning_basics/blob/main/Embeddings_for_Text.ipynb"},
+
+        {"title": "Image Classification",
+        "description": "Classify images using a binary linear classifier and a multi-class neural network classifier.",
+        "url": "https://github.com/amirince/machine_learning_basics/blob/main/Classifying_Images.ipynb"},
+
+        {"title": "Toxic Comment Classification",
+        "description": "Final Project, building several model for classification of the Toxic Tweets dataset and comparing performance.",
+        "url": "https://github.com/amirince/machine_learning_basics/blob/main/Toxic_Comment_Classification.ipynb"}
     ],
     "computer architecture": [
         {"title": "Item X", "description": "Description for item X"},

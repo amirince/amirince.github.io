@@ -11,7 +11,6 @@ function updateHeading(category) {
     headingElement.textContent = category.charAt(0).toUpperCase() + category.slice(1).toUpperCase()  + " PROJECTS"; // Capitalize the category name
 }
 
-
 function loadGrid(category) {
     fetch('items.json')
         .then(response => response.json())
@@ -21,9 +20,19 @@ function loadGrid(category) {
             container.innerHTML = ''; // Clear previous items
 
             data[category].forEach(item => {
-                const itemElement = document.createElement('div');
+                const itemElement = document.createElement('a');
                 itemElement.className = 'grid-item';
-                itemElement.innerHTML = `${item.title}<p>${item.description}</p>`;
+                itemElement.href = item.url;
+
+                const titleElement = document.createElement('h3');
+                titleElement.textContent = item.title;
+
+                const descriptionElement = document.createElement('p');
+                descriptionElement.textContent = item.description;
+
+                itemElement.appendChild(titleElement);
+                itemElement.appendChild(descriptionElement);
+                
                 container.appendChild(itemElement);
             });
         })
