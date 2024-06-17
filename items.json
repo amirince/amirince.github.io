@@ -1,11 +1,41 @@
 {
     "operating systems": [
-        {"title": "Item 1", "description": "Description for item 1", "url": 
-    "https://youtube.com"},
-        {"title": "Item 2", "description": "Description for item 2"},
-        {"title": "Item 3", "description": "Description for item 3"},
-        {"title": "Item 4", "description": "Description for item 4"},
-        {"title": "Item 4", "description": "Description for item 4"}
+        {"title": "Lab 1: Introduction to C",
+        "description": "Introduction to C, implementing and testing linked list",
+        "url": "https://github.com/amirince/operating_systems/blob/master/main.c"},
+
+        {"title": "Lab 2: Signals and Processes",
+        "description": "Implementing Signals and Processes in C",
+        "url": "https://github.com/amirince/lab2_operating_systems"},
+        
+        {"title": "Lab 3: Inter Process Communication",
+        "description": "Implementing Pipes between processes in C.",
+        "url": "https://github.com/amirince/operating_systems_main"},
+
+        {"title": "Lab 4: Quick Sort and Function Pointers",
+        "description": "Implementing Quick Sort in C",
+        "url": "https://github.com/amirince/operating_systems_la4"},
+
+        {"title": "Lab 5: Programming Using Threads",
+        "description": "Implementing mutiples threads to compute matrix operations ",
+        "url": "https://github.com/amirince/operating_systems_lab_5"},
+
+        {"title": "Lab 6: Scheduling",
+        "description": "First Come, First Served (FCFS), Shortest Job Next (SJN), Priority Scheduling, Shortest Remaining Time, Round Robin (RR)",
+        "url": "https://github.com/amirince/scheduling_simulator"},
+
+        {"title": "Lab 7: Memory Management",
+        "description": "Implementing memory mangement in C ",
+        "url": "https://github.com/amirince/memory_mgmt/tree/master"},
+
+        {"title": "Final Project: Custom Shell",
+        "description": "Create custom shell to parse and execute user commands",
+        "url": "https://github.com/amirince/operating_system_project_1"}
+
+
+
+       
+        
     ],
     "ios development": [
         {"title": "Item A", "description": "Description for item A"},
